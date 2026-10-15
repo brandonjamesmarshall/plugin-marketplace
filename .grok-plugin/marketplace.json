@@ -449,6 +449,19 @@
       "domains": ["pi.security", "mcp.pi.security"]
     },
     {
+      "name": "clerk",
+      "description": "Official Clerk integration. Add Clerk authentication and user management with framework-specific setup, organizations, billing, webhooks, and testing guidance, and manage Clerk applications, users, and instance configuration.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/clerk/skills.git",
+        "sha": "a02dbd2a933b8929525129a6cb9dcf6ed66d0adf"
+      },
+      "homepage": "https://clerk.com/docs",
+      "keywords": ["clerk", "clerk auth", "clerk authentication", "clerk user management", "clerk organizations", "clerk billing", "clerk webhooks", "clerk mcp"],
+      "domains": ["clerk.com", "dashboard.clerk.com"]
+    },
+    {
       "name": "vibewatch",
       "description": "Give Grok access to your community's vibe. Vibewatch is community intelligence for web3 teams; this plugin connects Grok to your Vibewatch organization through the hosted Vibewatch MCP server — sentiment overview, daily trend, message search, daily insights, weekly reports, market context, and the public Stacks ecosystem index, all read-only. Sign in with your Vibewatch account.",
       "category": "analytics",
